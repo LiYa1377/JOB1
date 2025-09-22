@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绒绒星球</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f8f8;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .navbar a {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .product-display {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+        .about-us {
+            width: 80%;
+        }
+        .about-us h2 {
+            text-align: center;
+        }
+        .about-us ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .about-us li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>绒绒星球</h1>
+        <p>仿宋,粉边黑底 仿宋,黑色 一颗绒绒星球，装下所有愁</p>
+    </div>
+    <div class="navbar">
+        <a href="#">首页</a>
+        <a href="#">购物车</a>
+        <a href="#">消息</a>
+        <a href="#">反馈中心</a>
+        <a href="#">我的</a>
+    </div>
+    <div class="content">
+        <p>很多毛绒玩具，一起拍一张图</p>
+        <div class="product-display">
+            <div class="product">产品1</div>
+            <div class="product">产品2</div>
+            <div class="product">产品3</div>
+        </div>
+        <div class="about-us">
+            <h2>关于我们</h2>
+            <ul>
+                <li>品牌初心</li>
+                <li>核心理念</li>
+                <li>产品特色</li>
+                <li>产品安全与健康</li>
+                <li>团队故事</li>
+                <li>联系方式</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
